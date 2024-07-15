@@ -1,0 +1,22 @@
+.ToDo h1{
+    display: flex;
+    justify-content: center;
+}
+.tasksContainer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.newTaskContainer, .tasksContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.newTaskContainer{
+    flex-direction: column;
+    justify-content:start;
+}
+.tasksHeader{
+    display: flex;
+    justify-content: space-around;
+}
